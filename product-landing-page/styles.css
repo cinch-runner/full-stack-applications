@@ -1,11 +1,31 @@
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     background-color: lightblue;
     border: 5px solid red;
+}
+
+header {
+    height: 350px;
+}
+
+#header-logo {
+    border: 3px solid orange;
+}
+
+#navbar {
+    border: 3px solid yellow;
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+}
+
+.nav-buttons {
+    border: 3px solid blue;
 }
 
 .intro {
     display: flex;
     justify-content: space-around;
 }
+
